@@ -1,0 +1,27 @@
+#main{
+    background-color: whitesmoke;
+    text-align: center;
+    width: 80%;
+    display: block;
+    border-radius: 20px;    
+    font-size: 45px;
+}
+
+h3{
+    font-size: 35px;
+    text-align: center;
+}
+
+p{
+ font-size: 35px;
+ text-align: center;
+
+}
+
+b{
+
+ font-size: 20px;
+ color: rgb(58, 56, 56);
+ text-align: center;
+ opacity: 60%;
+}

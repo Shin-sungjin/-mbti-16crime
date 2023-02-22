@@ -1,0 +1,52 @@
+#result{
+    display: none;
+    background-color: whitesmoke;
+    text-align: center;
+    width: 80%; 
+    border-radius: 20px;
+}
+
+.resultName{
+    font-size: 26px;
+}
+
+.resultDesc{
+    font-size:20px;
+}
+
+.kakao{
+    color: white;
+    background-color: #FEE500;
+    font-size: 20px;
+    border: 0px;
+    border-radius: 20px;
+}
+
+.gohome{
+    color: white;
+    background-color: pink;
+    font-size: 20px;
+    border: 0px;
+    border-radius: 20px;
+}
+
+.kakao:hover,.kakao:focus {
+    background-color: whitesmoke;
+    color: pink;
+    width: 80%;
+
+}
+
+.kakao:hover,.kakao:focus {
+    background-color: whitesmoke;
+    color: #FEE500;
+    width: 80%;
+
+}
+
+#shareResult{
+    background-color: whitesmoke;
+    text-align: center;
+    width: 80%; 
+    border-radius: 20px;
+}

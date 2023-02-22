@@ -1,0 +1,48 @@
+body{
+    background: linear-gradient(137deg, #FF0000,#2E2E2E,#0000FF );
+    background-size: 800% 800%;
+    -webkit-animation: gradation 8s ease infinite;
+-moz-animation: gradation 8s ease infinite;
+-o-animation: gradation 8s ease infinite;
+animation: gradation 8s ease infinite;
+}
+@-webkit-keyframes  gradation {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes  gradation {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-o-keyframes  gradation {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes  gradation { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.contain{
+  color: #fff;
+  background: linear-gradient(-45deg, #9a4d35, #872348, #1e82a7, #699087);
+  background-size: 400% 400%;   
+  animation: gradation 10s ease infinite;
+  width: 100%;
+  height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  top: 35%;
+  text-align: center;
+}
+
+
+*{
+ font-family: 'Do Hyeon', sans-serif;
+}

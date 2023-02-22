@@ -1,0 +1,106 @@
+<!DOCTYPE html>   <!--수정 이후 deploy에서 다시 파일 드랍-->
+<html lang ="ko" dir="ltr">       
+    
+<head>
+        <meta charset="utf-8">      <!--제목 부분, 및 필요한 파일, boostrap 불러오기 등-->
+        <meta name="viewport" content="width= device-width, initial-scale=1">
+        <meta class="author" content="Nb.21PASC">
+        <meta class="keywords" content="16가지 범죄유형">
+        <meta class="description" content="16가지 범죄유형">
+        
+        <!--sns share-->
+        <meta property = "og:url" content="https://16crimetype.netlify.app" />
+        <meta property = "og:title" content="16가지 범죄유형" />
+        <meta property = "og:type" content ="website" />
+        <meta property = "og:image" content="img/share.png" />
+        <meta property = "og:description" content="성격으로 알아보는 범죄유형"/>
+
+        <!--favicon-->
+        <link rel="shortcut icon" href="img/favicon.ico" >
+        <link rel="apple-touch-icon-precomposed"  href="img/favicon.ico" >
+        
+        <!--addsence-->
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4388770813774628"
+     crossorigin="anonymous"></script>
+     
+        <title>범죄 유형 테스트</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" 
+        crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./css/default.css">
+        <link rel="stylesheet" href="./css/main.css" >
+        <link rel="stylesheet" href="./css/qna.css">
+        <link rel="stylesheet" href="./css/animation.css" >  
+        <link rel="stylesheet" href="./css/result.css" > 
+        <script src="https://t1.kakaocdn.net/kakao_js_sdk/2.1.0/kakao.min.js"
+        integrity="sha384-dpu02ieKC6NUeKFoGMOKz6102CLEWi9+5RQjWSV0ikYSFFd8M3Wp2reIcquJOemx" crossorigin="anonymous"></script>
+        <script>
+        Kakao.init('677e4e2e310c5454f0bb7f0c134c545a');
+        /*Kakao.isInitialized();*/
+        </script>
+
+</head>
+    <body>
+     <div class="container">   
+         <!--사실상 여기서 부터 사이트 front 부분, backend부분은 따로 파일을 불러와 실행-->
+        <section id="main" class="mx-auto my-5 py-5 px-3">
+            <h3> <범죄 컨설팅 클럽></h3>
+            <div class="col-lg-6 cor-md-8 col-sm-10 col- mx-auto">
+            <img src="./img/main.png" alt="mainImage" class="img-fluid">
+            </div>
+            <p class="">
+            <br><당신에게 적합한 범죄를 찾아드립니다.><br><br>
+                <b style="font-family:돋움" >-이 테스트는 단순히 재미용도이며,<br>
+                이 테스트를 기반으로 저지른 범죄에 대해 전적으로 본인 책임임을 <br>
+                밝힙니다- </b>
+            </p><!--여기는 시작하기 버튼, 클릭시 js/start에 정의해둔 기능실행-->
+            <button id="test start" type="button" class="btn btn-outline-danger mt-3"  
+            onclick="js:begin()">Test start</button>
+            <!--<div class="img" ></div>-->
+            <h3 style="opacity: 70%"; color:gray class="mx-auto my-2 py-3 px-2"> 남부대학교 21대 경찰행정학과</h3>
+        </section>
+        
+        <section id="qna">
+         <div class="status mx-auto mt-5">
+            <div class="statusBar"></div>
+
+         </div>
+         <div class="qBox my-5 py-3 mx-auto" >
+         
+
+         </div>
+         <div class="answerBox">
+                
+
+         </div>
+        </section>
+        
+        <section id="result" class="mx-auto my-5 py-5 px-3">
+            <h1> 당신에게 적합한 범죄 유형은</h1>
+            
+
+            <div id="resultImg" class="my-3 col-lg-6 cor-md-8 col-sm-10 col- mx-auto">
+             
+            </div>
+
+            <div class="resultName">
+
+            </div>
+
+            <div class="resultDesc">
+
+            </div>
+            
+            <button type="button" class="kakao mt-3 py-2 px-3" onclick="js:setShare()" >공유하기</button>
+            <button type="button" class="btn btn-outline-danger mt-3" onclick="js:gohome()">시작화면으로 돌아가기</button>
+
+        </section>
+        <script src="./js/data.js" charset="utf-8"></script>
+        <script src="./js/start.js" charset="utf-8"></script>
+        <script src="./js/share.js" charset="utf-8"></script>
+     </div>
+    </body>
+</html>
+
