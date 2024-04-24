@@ -1,5 +1,5 @@
 <h1>2023년도 남부대학교 경찰행정학과의 홍보를 위해 만들어본 Test 입니다. =</h1>
-<a href="https://poomang.com/detail/lmbln"></a>
+<a href="https://poomang.com/detail/lmbln">테스트 경로</a>
 <p>
   해당 심리테스트는 여기서 진행 가능합니다. 
 </p>
